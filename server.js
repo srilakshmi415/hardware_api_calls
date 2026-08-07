@@ -33,7 +33,7 @@ function writeData(records) {
 //   "temperature": 42.5,
 //   "status": "ok"
 // }
-app.post('/api/hardware-data', (req, res) => {
+app.post('/api/addhardware-data', (req, res) => {
   const payload = req.body;
 
   if (!payload || Object.keys(payload).length === 0) {
@@ -54,7 +54,7 @@ app.post('/api/hardware-data', (req, res) => {
 });
 
 // ---- GET: view all submitted data in the browser (JSON) --------------
-app.get('/api/hardware-data', (req, res) => {
+app.get('/api/gethardware-data', (req, res) => {
   const records = readData();
   res.json(records);
 });
