@@ -1,0 +1,23 @@
+[
+  {
+    "id": "msiwv05sffxj3q",
+    "receivedAt": "2026-08-07T12:18:20.944Z",
+    "deviceId": "sensor-01",
+    "temperature": 42.5,
+    "status": "ok"
+  },
+  {
+    "id": "msix0h3l0jy75k",
+    "receivedAt": "2026-08-07T12:22:36.177Z",
+    "deviceId": "sensor-02",
+    "temperature": 38.1,
+    "status": "warning"
+  },
+  {
+    "id": "msix8a6om2ofp8",
+    "receivedAt": "2026-08-07T12:28:40.464Z",
+    "device": "esp32-01",
+    "temp": 24.5,
+    "humidity": 60
+  }
+]
