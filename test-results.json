@@ -1,0 +1,9 @@
+[
+  {
+    "id": "mspq5krdt5zk2u",
+    "receivedAt": "2026-08-12T06:45:00.121Z",
+    "deviceId": "esp32-07",
+    "testName": "power-on-self-test",
+    "result": "pass"
+  }
+]
